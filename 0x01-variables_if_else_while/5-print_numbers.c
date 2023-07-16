@@ -1,17 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - Prints numbers from 0 to 9.
- * Return: 0
+ * main - Entry point.
+ * description: Prints a sentence.
+ * Return: always 0
  */
+
 int main(void)
 {
-	int i;
-
-	for (i = 0; i < 10; i++)
-	{
-		printf("%d", i);
-	}
-	putchar('\n');
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
