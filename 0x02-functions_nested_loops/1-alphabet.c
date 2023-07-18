@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* main - Entry point.
+* print_alphabet - Entry point.
 * Description - prints the alphabet, in lowercase.
 * return:0
 */
 
-int main(void)
+void print_alphabet(void)
 {
 	char x;
 
@@ -14,6 +14,4 @@ int main(void)
 	_putchar(x);
 	_putchar('\n');
 	}
-
-	return (0);
 }
