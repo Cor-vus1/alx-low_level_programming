@@ -10,8 +10,6 @@ void print_square(int size)
 {
 	int vertical;
 	int horizontal;
-	int sum = 0;
-
 	if (size <= 0)
 	{
 		_putchar('\n');
