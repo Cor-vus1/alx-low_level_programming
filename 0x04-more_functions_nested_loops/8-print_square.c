@@ -8,7 +8,6 @@
  */
 void print_square(int size)
 {
-	int size = 10;
 	int vertical;
 	int horizontal;
 	int sum = 0;
