@@ -1,19 +1,21 @@
 #include "main.h"
+
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * more_numbers - print more numbers
  */
+
 void more_numbers(void)
 {
-	int x;
+	int i, j;
 
-	for (x = 48; x <= 57; x++)
+	for (i = 1; i <= 10; i++)
 	{
-		if (x != 50 && x != 52)
+		for (j = 0; j <= 14; j++)
 		{
-			_putchar(x);
+			if (j >= 10)
+				_putchar('1');
+			_putchar (j % 10 + '0');
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
